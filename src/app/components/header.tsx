@@ -2,7 +2,7 @@ import Link from "next/link";
 export function Header() {
     return (
         <nav className="flex items-center flex-wrap bg-gray-800 p-6">
-            <div className="absolute flex items-center flex-shrink-0 text-white mr-6">
+            <div className="absolute flex items-center flex-shrink-0 text-white">
                 <span className="lg:flex font-semibold text-xl tracking-tight">Cytech</span>
             </div>
             <div className="flex-grow flex justify-center">
