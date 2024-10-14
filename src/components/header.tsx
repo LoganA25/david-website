@@ -4,14 +4,14 @@ import channel_logo from "../images/channel_logo.png";
 
 export function Header() {
     return (
-        <nav className="flex items-center flex-wrap bg-[#191e31] p-3 text-black">
-            <Link href="/" className="flex justify-center items-center shadow-2xl rounded-full pr-8 bg-[#f5f5f5]">
+        <nav className="flex items-center flex-wrap bg-black p-3 text-black">
+            <Link href="/" className="flex justify-center items-center ">
                 <Image
                     className="h-20 w-20"
                     src={channel_logo}
                     alt="Picture of the author"
                 />
-                <span className="lg:flex font-semibold text-4xl tracking-tight">Cytech</span>
+                <span className="lg:flex font-semibold text-4xl text-white">Cytech</span>
             </Link>
             <div className="flex-grow flex justify-end">
                 <div className="hidden text-md lg:flex justify-between space-x-10 text-[#f5f5f5] text-lg">
