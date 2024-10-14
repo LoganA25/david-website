@@ -4,7 +4,7 @@ import channel_logo from "../images/channel_logo.png";
 
 export function Header() {
     return (
-        <nav className="flex items-center flex-wrap bg-black p-3 text-black">
+        <nav className="flex items-center flex-wrap bg-black p-3 text-black sticky top-0">
             <Link href="/" className="flex justify-center items-center ">
                 <Image
                     className="h-20 w-20"
