@@ -15,17 +15,23 @@ export function Header() {
             </Link>
             <div className="flex-grow flex justify-end">
                 <div className="hidden text-md lg:flex justify-between space-x-10 text-[#f5f5f5] text-lg">
-                    <Link href="/" className="block mt-4 lg:inline-block lg:mt-0">
+                    <a href="#home" className="">
                         Home
-                    </Link>
-                    <Link href="videos" className="block mt-4 lg:inline-block lg:mt-0">
-                        Videos
-                    </Link>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0">
-                        Thumbnails
                     </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0">
-                        Contact
+                    <a href="#entertainment">
+                        Entertainment
+                    </a>
+                    <a href="#education" className="block mt-4 lg:inline-block lg:mt-0">
+                        Education
+                    </a>
+                    <a href="#gaming" className="block mt-4 lg:inline-block lg:mt-0">
+                        Gaming
+                    </a>
+                    <a href="#music" className="block mt-4 lg:inline-block lg:mt-0">
+                        Music
+                    </a>
+                    <a href="#trailers" className="block mt-4 lg:inline-block lg:mt-0">
+                        Trailers
                     </a>
                 </div>
             </div>
