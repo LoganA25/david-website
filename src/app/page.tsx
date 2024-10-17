@@ -1,6 +1,6 @@
 import { Header } from "../components/header";
 import { Videos } from "../components/videos";
-import { Contact } from "../components/contact";
+import { ContactForm } from "../components/contact_form";
 import Link from "next/link";
 
 export default function Home() {
@@ -28,7 +28,9 @@ export default function Home() {
             <div className="pt-96">
               <Videos />
             </div>
-            <Contact />
+            <div id="contact" className="text-3xl font-bold scroll-m-32 text-black">
+            <ContactForm />
+          </div>
           </div>
         </div>
       </div>
