@@ -101,52 +101,6 @@ export function Videos() {
                                 <p className="text-white mt-2">Video 3 Description</p>
                             </div>
                         </div>
-                        <div className="grid grid-cols-3 gap-4 bg-black rounded-lg px-4 py-4 text-center">
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 1 Description</p>
-                            </div>
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 2 Description</p>
-                            </div>
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 3 Description</p>
-                            </div>
-                        </div>
-                        <div className="grid grid-cols-3 gap-4 bg-black rounded-lg px-4 py-4 text-center">
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 1 Description</p>
-                            </div>
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 2 Description</p>
-                            </div>
-                            <div>
-                                <iframe
-                                    className="w-full aspect-video rounded-lg border-8"
-                                    src="https://www.youtube.com/embed/i5drPn_tsd0?si=Bg0QUkpAcncE7bSF">
-                                </iframe>
-                                <p className="text-white mt-2">Video 3 Description</p>
-                            </div>
-                        </div>
                         <div id="trailers" className="text-3xl font-bold text-center pb-6 underline scroll-m-32">Trailers</div>
                         <div className="grid grid-cols-3 gap-4 bg-black rounded-lg px-4 py-4 text-center">
                             <div>
