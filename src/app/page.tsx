@@ -1,6 +1,6 @@
-import { Header } from "../components/header";
-import { Videos } from "../components/videos";
-import { ContactForm } from "../components/contact_form";
+import { Header } from "../components/Header";
+import { Videos } from "../components/Videos";
+import { ContactForm } from "../components/ContactForm";
 import Link from "next/link";
 
 export default function Home() {
