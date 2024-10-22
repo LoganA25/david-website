@@ -3,6 +3,7 @@ import { Videos } from "@/components/Videos";
 import { ContactForm } from "@/components/ContactForm";
 import { Youtube } from "@/components/Youtube";
 import { Footer } from "@/components/Footer";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import Link from "next/link";
 
 export default function Home() {
@@ -33,9 +34,14 @@ export default function Home() {
             <div id="contact" className="text-3xl font-bold scroll-m-32 text-black pb-12">
               <ContactForm />
             </div>
+            <div className="relative z-0">
+              <ScrollToTop />
+            </div>
             <div className="space-y-12">
               <Youtube />
-              <Footer />
+              <div className="relative z-10">
+                <Footer />
+              </div>
             </div>
           </div>
         </div>
