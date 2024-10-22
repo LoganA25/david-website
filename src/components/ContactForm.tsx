@@ -40,7 +40,7 @@ export function ContactForm() {
 
   return (
     <div className="pt-56">
-      <div className="p-4 mx-auto max-w-3xl rounded-lg">
+      <div className="p-4 mx-auto max-w-3xl rounded-lg bg-black">
         <h1 className="text-3xl text-white text-center">Contact me</h1>
         <form onSubmit={handleSubmit} className="mt-8 space-y-4">
           <Toaster toastOptions={{ duration: 4500 }} />
@@ -79,7 +79,7 @@ export function ContactForm() {
           ></textarea>
           <button
             type="submit"
-            className="text-black bg-white hover:text-white hover:bg-black tracking-wide rounded-md text-sm px-4 py-3 w-full"
+            className="text-black bg-white tracking-wide rounded-md text-sm px-4 py-3 w-full"
           >
             Send
           </button>

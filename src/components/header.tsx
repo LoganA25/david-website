@@ -15,9 +15,9 @@ export function Header() {
             </Link>
             <div className="flex-grow flex justify-end">
                 <div className="hidden text-md lg:flex justify-between space-x-10 text-[#f5f5f5] text-lg">
-                    <a href="#home" className="">
-                        Home
-                    </a>
+                    {/* <a href="#start" className="">
+                        Start
+                    </a> */}
                     <a href="#entertainment">
                         Entertainment
                     </a>
@@ -32,6 +32,9 @@ export function Header() {
                     </a>
                     <a href="#trailers" className="block mt-4 lg:inline-block lg:mt-0">
                         Trailers
+                    </a>
+                    <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0">
+                        Contact
                     </a>
                 </div>
             </div>
