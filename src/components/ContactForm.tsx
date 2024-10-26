@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { FormEvent, useState } from 'react'
-import { toast, Toaster } from 'react-hot-toast'
+import { FormEvent, useState } from 'react';
+import { toast, Toaster } from 'react-hot-toast';
 
 export function ContactForm() {
   const [from, setFrom] = useState('')

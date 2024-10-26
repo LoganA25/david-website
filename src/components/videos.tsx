@@ -3,9 +3,9 @@ export function Videos() {
     return (
         <div className="text-white">
             <div className="flex items-center justify-center">
-                <div className="pt-8 w-3/4 rounded text-white">
-                    <div className="">
-                        <div id="entertainment" className="px-4 py-4 text-3xl font-bold text-center scroll-m-32 bg-black rounded-t-lg">Entertainment</div>
+                <div className="pt-8 lg:w-3/4 w-11/12 rounded text-white">
+                    <div>
+                        <div id="entertainment" className="px-4 py-4 text-3xl font-bold text-center bg-black rounded-t-lg">Entertainment</div>
                         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-4 bg-black rounded-b-lg px-4 py-4 text-center mb-24">
                             <div>
                                 <iframe
