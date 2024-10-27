@@ -42,8 +42,8 @@ export function ContactForm() {
     <div className="pt-56">
       <div className="p-4 mx-auto max-w-3xl rounded-lg bg-black">
         <h1 className="text-3xl text-white text-center">Contact me</h1>
-        <form onSubmit={handleSubmit} className="mt-8 space-y-4">
-          <Toaster toastOptions={{ duration: 4500 }} />
+        <form onSubmit={handleSubmit} className="ml-auto space-y-4">
+          <Toaster toastOptions={{ duration: 4500, style: { fontSize: '14px' } }} />
           <input
             type="text"
             placeholder="Name"
