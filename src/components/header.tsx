@@ -73,9 +73,6 @@ function Header({
                 </Link>
                 <div className="flex-grow flex justify-end">
                     <div className="hidden text-md lg:flex justify-between space-x-10 text-[#f5f5f5] text-lg">
-                        {/* <a href="#start" className="">
-                        Start
-                    </a> */}
                         <a href="#entertainment">
                             Entertainment
                         </a>
@@ -155,7 +152,7 @@ function Navigation({
     expanded: boolean
 }) {
     return (
-        <nav className="mt-px font-display text-3xl font-medium tracking-tight text-white">
+        <nav className="mt-px font-display text-3xl font-medium tracking-tight text-white pl-4">
             <NavigationRow>
                 <NavigationItem href="#entertainment" aria-expanded={expanded ? 'true' : 'false'}>Entertainment</NavigationItem>
                 <NavigationItem href="#education" aria-expanded={expanded ? 'true' : 'false'}>Education</NavigationItem>

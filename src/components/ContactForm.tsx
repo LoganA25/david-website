@@ -39,8 +39,8 @@ export function ContactForm() {
   }
 
   return (
-    <div className="pt-56">
-      <div className="p-4 mx-auto max-w-3xl rounded-lg bg-black">
+    <div className="lg:pt-56 pt-32">
+      <div className="p-4 lg:mx-auto m-4 lg:max-w-3xl rounded-lg bg-black">
         <h1 className="text-3xl text-white text-center">Contact me</h1>
         <form onSubmit={handleSubmit} className="ml-auto space-y-4">
           <Toaster toastOptions={{ duration: 4500, style: { fontSize: '14px' } }} />
