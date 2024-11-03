@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div id="start" className="relative h-screen">
-        <video autoPlay loop muted className="fixed inset-0 w-full h-full object-cover z-0 brightness-50">
+        <video autoPlay loop muted playsInline className="fixed inset-0 w-full h-full object-cover z-0 brightness-50">
           <source src="/videos/landing_page.mp4" type="video/mp4" />
         </video>
         <div className="relative z-10">
