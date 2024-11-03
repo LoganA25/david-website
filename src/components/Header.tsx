@@ -219,7 +219,6 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                     style={{ height: expanded ? 'auto' : '0' }}
                     className="relative z-50 overflow-hidden bg-black lg:hidden"
                     aria-hidden={expanded ? undefined : 'true'}
-                    inert={expanded ? undefined : ''}
                     initial={{ height: 0 }}
                     animate={{ height: expanded ? 'auto' : 0 }}
                     transition={{ duration: 0.3 }} // Adjust duration for smoothness
