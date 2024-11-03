@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
 
-const resend = new Resend('process.env.RESEND_API_KEY');
+const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
 
@@ -8,7 +8,7 @@ export async function POST(request: Request) {
 
     const data = await resend.emails.send({
       from: `${from} ${email} via <onboarding@resend.dev>`,
-      to: 'loganallendev@gmail.com',
+      to: 'cytechflowyt@gmail.com',
       replyTo: email,
       subject: subject,
       text: message,

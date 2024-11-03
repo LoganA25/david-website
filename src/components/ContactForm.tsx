@@ -79,7 +79,7 @@ export function ContactForm() {
           ></textarea>
           <button
             type="submit"
-            className="text-black bg-white tracking-wide rounded-md text-sm px-4 py-3 w-full"
+            className="text-black bg-white tracking-wide rounded-md text-sm px-4 py-3 w-full hover:bg-gray-200"
           >
             Send
           </button>
