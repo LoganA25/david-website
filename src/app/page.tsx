@@ -4,6 +4,7 @@ import { Youtube } from "@/components/Youtube";
 import { Footer } from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { RootLayout } from "@/components/Header";
+import { Toaster } from "react-hot-toast";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <video autoPlay loop muted playsInline className="fixed inset-0 w-full h-full object-cover z-0 brightness-50">
           <source src="/videos/landing_page.mp4" type="video/mp4" />
         </video>
+        <Toaster toastOptions={{ duration: 4500 }} />
         <div className="relative z-10">
           <RootLayout>
             <div className="text-white text-center">
@@ -32,7 +34,7 @@ export default function Home() {
                 <div className="lg:pt-64 pt-36">
                   <Videos />
                 </div>
-                <div id="contact" className="text-3xl font-bold scroll-m-32 text-black pb-12 ">
+                <div id="contact" className="text-3xl font-bold scroll-m-32 text-black pb-12">
                   <ContactForm />
                 </div>
                 <div className="relative z-0">

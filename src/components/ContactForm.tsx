@@ -1,7 +1,7 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-import { toast, Toaster } from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 
 export function ContactForm() {
   const [from, setFrom] = useState('')
@@ -43,7 +43,6 @@ export function ContactForm() {
       <div className="p-4 lg:mx-auto m-4 lg:max-w-3xl rounded-lg bg-black">
         <h1 className="text-3xl text-white text-center">Contact me</h1>
         <form onSubmit={handleSubmit} className="ml-auto space-y-4">
-          <Toaster toastOptions={{ duration: 4500, style: { fontSize: '14px' } }} />
           <input
             type="text"
             placeholder="Name"
