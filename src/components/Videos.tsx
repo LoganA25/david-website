@@ -36,7 +36,7 @@ export function Videos() {
                             <div>
                                 <iframe
                                     className="w-full aspect-video rounded-lg border-8"
-                                    src="https://drive.google.com/file/d/1pAefX_hh8qIy_14e2-0wPHiO6E5Dy7Gs/preview">
+                                    src="https://drive.google.com/file/d/1CdNArMoGlXNsB4T0tUK7Rq5SWb2I4apZ/preview">
                                 </iframe>
                                 <h1 className="pt-2 text-2xl">Chess Vibes Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
@@ -48,7 +48,7 @@ export function Videos() {
                             <div>
                                 <iframe
                                     className="w-full aspect-video rounded-lg border-8"
-                                    src="https://drive.google.com/file/d/1CdNArMoGlXNsB4T0tUK7Rq5SWb2I4apZ/preview">
+                                    src="https://drive.google.com/file/d/1pAefX_hh8qIy_14e2-0wPHiO6E5Dy7Gs/preview">
                                 </iframe>
                                 <h1 className="pt-2 text-2xl">ABD</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
@@ -107,7 +107,7 @@ export function Videos() {
                                 </iframe>
                                 <h1 className="pt-2 text-2xl">Wicked Wayz Music Video</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
-                                    Intense, gritty visuals paired with energetic editing to match Wicked Wayz's bold style. The
+                                    Intense, gritty visuals paired with energetic editing to match Wicked Wayz&apos;s bold style. The
                                     editing features dynamic cuts, impactful transitions, and visual effects that complement the raw
                                     energy and dark themes of the track, creating a visually striking and immersive experience.</p>
                             </div>
@@ -124,7 +124,7 @@ export function Videos() {
                                     Combines cinematic visuals, high-energy pacing, and dynamic editing to create an immersive
                                     preview of the gameplay experience. Featuring fast cuts, impactful transitions, and
                                     attention-grabbing effects, the trailer highlights key gameplay moments and dramatic scenes,
-                                    delivering an engaging and polished showcase that captures the game's tone and excitement.</p>
+                                    delivering an engaging and polished showcase that captures the game&apos;s tone and excitement.</p>
                             </div>
                             <div>
                                 <iframe
@@ -135,7 +135,7 @@ export function Videos() {
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     A blend of cinematic visuals with suspenseful pacing, creating a captivating introduction to the
                                     story. The editing features dramatic transitions, tension-building music, and visually engaging
-                                    effects that evoke the book's atmosphere and intrigue. Designed to draw viewers in, the trailer
+                                    effects that evoke the book&apos;s atmosphere and intrigue. Designed to draw viewers in, the trailer
                                     offers a glimpse of the narrative&apos;s tone and key moments while maintaining a polished,
                                     cinematic presentation.</p>
                             </div>
