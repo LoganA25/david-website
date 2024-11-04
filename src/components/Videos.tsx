@@ -12,7 +12,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1lBWf7WuGvx5O40pcET0oH7vRyFQ0AjZf/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl underline underline-offset-4">Heydominik</h1>
+                                <h1 className="pt-2 text-2xl border-b">Heydominik</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     A fast-paced, visually engaging edit that highlights HeyDominik&apos;s expert insights on social media
                                     growth. The demo features dynamic cuts, seamless transitions, and impactful visuals, ensuring
@@ -23,7 +23,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1n6sri1cW58ARLo8osdW8mdEo2GEMN82I/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">KodyKo</h1>
+                                <h1 className="pt-2 text-2xl border-b">KodyKo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Fast-paced, comedic editing style that complements Cody Ko&apos;s signature humor and
                                     commentary. Expect sharp cuts, quick transitions, and well-timed visual cues to match his
@@ -38,7 +38,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1CdNArMoGlXNsB4T0tUK7Rq5SWb2I4apZ/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Chess Vibes Demo</h1>
+                                <h1 className="pt-2 text-2xl border-b">Chess Vibes Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Sharp, clean editing that enhances strategic analysis and chess tutorials. Expect precise cuts,
                                     clear visuals, and smooth transitions that maintain focus on key moments in the game. The
@@ -50,7 +50,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1pAefX_hh8qIy_14e2-0wPHiO6E5Dy7Gs/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">ABD</h1>
+                                <h1 className="pt-2 text-2xl border-b">ABD</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     High-energy, engaging editing, perfectly tailored to the Anime Balls Deep style. Expect dynamic
                                     cuts, punchy transitions, and well-timed effects to amplify deep anime analysis and discussions.
@@ -65,7 +65,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/11NHFiKCgt4z93ieeoGn6J86rs8Q-JNG0/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Cytech Gaming Fears To Fathom Demo</h1>
+                                <h1 className="pt-2 text-2xl border-b">Cytech Gaming Fears To Fathom Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Showcases my diverse editing skills across a range of gaming content. Expect smooth
                                     transitions, engaging visual effects, and sharp pacing that keeps viewers immersed in the
@@ -78,7 +78,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://www.youtube.com/embed/CaZyqkFZoyE?si=dWm2zd8gxk6sbB7l">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Cytech Gaming Minecraft Challenge</h1>
+                                <h1 className="pt-2 text-2xl border-b">Cytech Gaming Minecraft Challenge</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Dive into an exhilarating Minecraft challenge where quick cuts, seamless transitions,
                                     and high-energy effects amplify the thrill of every moment. This video keeps the excitement
@@ -93,7 +93,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1sbptP0CeYXtCFO2-Kk6mpYaw075_VgA2/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">R3alTalk Music Video Demo</h1>
+                                <h1 className="pt-2 text-2xl border-b">R3alTalk Music Video Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     This demo for R3alTalk brings a high-energy, visually dynamic editing style to match the
                                     intensity of his music. Featuring impactful transitions, fast-paced cuts, and moody visual effects,
@@ -105,7 +105,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1ISkDvOh9w4VMSc057JPIsb1YH_DtQHE_/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Wicked Wayz Music Video</h1>
+                                <h1 className="pt-2 text-2xl border-b">Wicked Wayz Music Video</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Intense, gritty visuals paired with energetic editing to match Wicked Wayz&apos;s bold style. The
                                     editing features dynamic cuts, impactful transitions, and visual effects that complement the raw
@@ -119,7 +119,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1jfnkkq4NDR7uTrlnV62_QB33sloapAIt/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Game Trailer Demo</h1>
+                                <h1 className="pt-2 text-2xl border-b">Game Trailer Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     Combines cinematic visuals, high-energy pacing, and dynamic editing to create an immersive
                                     preview of the gameplay experience. Featuring fast cuts, impactful transitions, and
@@ -131,7 +131,7 @@ export function Videos() {
                                     className="w-full aspect-video rounded-lg border-8"
                                     src="https://drive.google.com/file/d/1ptBwIwJZ-AFYg79EvQ3ou1ZxDmKVUnrf/preview">
                                 </iframe>
-                                <h1 className="pt-2 text-2xl">Book Trailer Demo</h1>
+                                <h1 className="pt-2 text-2xl border-b">Book Trailer Demo</h1>
                                 <p className="text-start md:pb-0 lg:pb-0 pb-8">
                                     A blend of cinematic visuals with suspenseful pacing, creating a captivating introduction to the
                                     story. The editing features dramatic transitions, tension-building music, and visually engaging
