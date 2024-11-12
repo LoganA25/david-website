@@ -72,22 +72,31 @@ function Header({
                     <span className="lg:flex font-semibold text-4xl text-white">Cytech</span>
                 </Link>
                 <div className="flex-grow flex justify-end">
-                    <div className="hidden text-md lg:flex justify-between space-x-10 text-[#f5f5f5] text-lg">
+                    <div className="hidden text-md lg:flex justify-between space-x-2 text-[#f5f5f5] text-lg">
                         <a href="#entertainment">
                             Entertainment
                         </a>
+                        <div className="border border-white"></div>
                         <a href="#education" className="block mt-4 lg:inline-block lg:mt-0">
                             Education
                         </a>
+                        <div className="border border-white"></div>
                         <a href="#gaming" className="block mt-4 lg:inline-block lg:mt-0">
                             Gaming
                         </a>
+                        <div className="border border-white"></div>
                         <a href="#music" className="block mt-4 lg:inline-block lg:mt-0">
                             Music
                         </a>
+                        <div className="border border-white"></div>
                         <a href="#trailers" className="block mt-4 lg:inline-block lg:mt-0">
                             Trailers
                         </a>
+                        <div className="border border-white"></div>
+                        <a href="#thumbnails" className="block mt-4 lg:inline-block lg:mt-0">
+                            Thumbnails
+                        </a>
+                        <div className="border border-white"></div>
                         <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0">
                             Contact
                         </a>
@@ -138,7 +147,7 @@ function NavigationItem({
     return (
         <Link
             href={href}
-            className="group relative flex-mx-6 bg-black px-6 py-10 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:pl-16"
+            className="group relative flex-mx-6 bg-black px-6 py-6 even:mt-px sm:mx-0 sm:px-0 sm:py-16 sm:odd:pr-16 sm:even:mt-0 sm:even:pl-16 border-t border-neutral-800"
         >
             {children}
             <span className="absolute inset-y-0 -z-10 w-screen bg-white opacity-0 transition group-odd:right-0 group-even:left-0 group-hover:opacity-100" />
@@ -152,13 +161,16 @@ function Navigation({
     expanded: boolean
 }) {
     return (
-        <nav className="mt-px font-display text-3xl font-medium tracking-tight text-white pl-4">
+        <nav className="mt-px font-display text-2xl font-medium tracking-tight text-white">
             <NavigationRow>
                 <NavigationItem href="#entertainment" aria-expanded={expanded ? 'true' : 'false'}>Entertainment</NavigationItem>
                 <NavigationItem href="#education" aria-expanded={expanded ? 'true' : 'false'}>Education</NavigationItem>
                 <NavigationItem href="#gaming" aria-expanded={expanded ? 'true' : 'false'}>Gaming</NavigationItem>
                 <NavigationItem href="#music" aria-expanded={expanded ? 'true' : 'false'}>Music</NavigationItem>
+            </NavigationRow>
+            <NavigationRow>
                 <NavigationItem href="#trailers" aria-expanded={expanded ? 'true' : 'false'}>Trailers</NavigationItem>
+                <NavigationItem href="#thumbnails" aria-expanded={expanded ? 'true' : 'false'}>Thumbnails</NavigationItem>
                 <NavigationItem href="#contact" aria-expanded={expanded ? 'true' : 'false'}>Contact</NavigationItem>
             </NavigationRow>
         </nav>

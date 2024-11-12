@@ -1,4 +1,5 @@
 import { Videos } from "@/components/Videos";
+import { Thumbnails } from "@/components/Thumbnails";
 import { ContactForm } from "@/components/ContactForm";
 import { Youtube } from "@/components/Youtube";
 import { Footer } from "@/components/Footer";
@@ -33,6 +34,9 @@ export default function Home() {
                 </div>
                 <div className="lg:pt-64 pt-36">
                   <Videos />
+                </div>
+                <div className="lg:pt-64 pt-36">
+                  <Thumbnails />
                 </div>
                 <div id="contact" className="text-3xl font-bold scroll-m-32 text-black pb-12">
                   <ContactForm />
