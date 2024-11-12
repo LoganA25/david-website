@@ -173,6 +173,18 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
     let navRef = useRef<React.ElementRef<'div'>>(null)
     let shouldReduceMotion = useReducedMotion()
 
+    // Disables scrolling when mobile menu is open
+    useEffect(() => {
+        if (expanded) {
+            document.body.classList.add('overflow-hidden')
+        } else {
+            document.body.classList.remove('overflow-hidden')
+        }
+        return () => {
+            document.body.classList.remove('overflow-hidden')
+        }
+    }, [expanded])
+
     useEffect(() => {
         function onClick(event: MouseEvent) {
             if (event.target instanceof HTMLElement) {
