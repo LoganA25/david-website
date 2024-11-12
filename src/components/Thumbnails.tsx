@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import thumbnail_1 from "../images/thumbnails/thumbnail_1.jpg";
 import thumbnail_2 from "../images/thumbnails/thumbnail_2.jpg";
 import thumbnail_3 from "../images/thumbnails/thumbnail_3.jpg";
