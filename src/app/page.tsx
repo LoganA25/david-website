@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="lg:pt-64 pt-36">
                   <Thumbnails />
                 </div>
-                <div id="contact" className="text-3xl font-bold scroll-m-32 text-black pb-12">
+                <div className="text-3xl font-bold scroll-m-32 text-black pb-12">
                   <ContactForm />
                 </div>
                 <div className="relative z-0">

@@ -4,10 +4,10 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
 
-    const { from, email, subject, message } = await request.json();
+    const { first, last, email, subject, message } = await request.json();
 
     const data = await resend.emails.send({
-      from: `${from} ${email} via <onboarding@resend.dev>`,
+      from: `${first} ${last} ${email} via <onboarding@resend.dev>`,
       to: 'cytechflowyt@gmail.com',
       replyTo: email,
       subject: subject,

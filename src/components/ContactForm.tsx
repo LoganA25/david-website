@@ -4,7 +4,8 @@ import { FormEvent, useState } from 'react';
 import { toast } from 'react-hot-toast';
 
 export function ContactForm() {
-  const [from, setFrom] = useState('')
+  const [first, setFirst] = useState('')
+  const [last, setLast] = useState('')
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
@@ -12,7 +13,8 @@ export function ContactForm() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const formData = {
-      from,
+      first,
+      last,
       email,
       subject,
       message,
@@ -28,7 +30,8 @@ export function ContactForm() {
 
     if (response.ok) {
       toast.success('Email sent successfully!')
-      setFrom('')
+      setFirst('')
+      setLast('')
       setEmail('')
       setSubject('')
       setMessage('')
@@ -39,16 +42,24 @@ export function ContactForm() {
   }
 
   return (
-    <div className="lg:pt-56 pt-32">
+    <div className="lg:pt-24 pt-36">
       <div className="p-4 lg:mx-auto m-4 lg:max-w-3xl rounded-lg bg-black">
-        <h1 className="text-3xl text-white text-center">Contact me</h1>
-        <form onSubmit={handleSubmit} className="ml-auto space-y-4">
+        <h1 id="contact" className="text-3xl text-white text-center pb-6">Contact me</h1>
+        <form onSubmit={handleSubmit} className="ml-auto grid lg:grid-cols-2 grid-cols-1 gap-4">
           <input
             type="text"
-            placeholder="Name"
+            placeholder="First Name"
             className="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 text-sm"
-            value={from}
-            onChange={(e) => setFrom(e.target.value)}
+            value={first}
+            onChange={(e) => setFirst(e.target.value)}
+            required
+          />
+          <input
+            type="text"
+            placeholder="Last Name"
+            className="w-full rounded-md py-3 px-4 text-gray-800 bg-gray-100 text-sm"
+            value={last}
+            onChange={(e) => setLast(e.target.value)}
             required
           />
           <input
@@ -71,14 +82,14 @@ export function ContactForm() {
             placeholder="Message"
             rows={6}
             maxLength={1000}
-            className="w-full rounded-md px-4 text-gray-800 bg-gray-100 text-sm pt-3"
+            className="w-full rounded-md px-4 text-gray-800 bg-gray-100 text-sm pt-3 lg:col-span-2"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
           <button
             type="submit"
-            className="text-black bg-white tracking-wide rounded-md text-sm px-4 py-3 w-full hover:bg-gray-200"
+            className="text-black bg-gray-100 tracking-wide rounded-md text-sm px-4 py-3 w-full hover:bg-gray-300 lg:col-span-2"
           >
             Send
           </button>
