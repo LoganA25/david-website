@@ -4,7 +4,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { Youtube } from "@/components/Youtube";
 import { Footer } from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { RootLayout } from "@/components/Header";
+import { RootLayout } from "@/components/RootLayout";
 import { Toaster } from "react-hot-toast";
 
 export default function Home() {

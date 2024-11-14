@@ -77,27 +77,27 @@ function Header({
                             Entertainment
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#education" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#education">
                             Education
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#gaming" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#gaming">
                             Gaming
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#music" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#music">
                             Music
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#trailers" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#trailers">
                             Trailers
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#thumbnails" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#thumbnails">
                             Thumbnails
                         </a>
                         <div className="border border-white"></div>
-                        <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0">
+                        <a href="#contact">
                             Contact
                         </a>
                     </div>
@@ -272,7 +272,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             >
                 <motion.div
                     layout
-                    className="relative isolate flex w-full flex-col pt-9"
+                    className="relative isolate flex w-full flex-col pt-9 overflow-hidden"
                 >
                     <main className="w-full flex-auto">{children}</main>
                 </motion.div>
@@ -286,8 +286,9 @@ export function RootLayout({ children }: { children: React.ReactNode }) {
     let [logoHovered, setLogoHovered] = useState(false)
 
     return (
+
         <RootLayoutContext.Provider value={{ logoHovered, setLogoHovered }}>
-            <RootLayoutInner key={pathname}>{children}</RootLayoutInner>
+                <RootLayoutInner key={pathname}>{children}</RootLayoutInner>
         </RootLayoutContext.Provider>
     )
 }
